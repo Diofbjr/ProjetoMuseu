@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/museu.css">
+    <link rel="stylesheet" href="../css/normalize.css">
+</head>
+<body>
+    <div id="container"> <!-- inicio da div container -->
+        <header> <!-- inicio do header -->
+            <div class="logo">
+                <h1><a href="index.html">Museu Nacional</a></h1>
+            </div>
+            <nav>
+               <ul>
+                   <li><a href="">HOME</a></li>
+                   <li><a href="">EXPOSIÇÕES</a></li>
+                   <li><a href="">PESQUISA</a></li>
+                   <li><a href="">ACERVO</a></li>
+                   <li><a href="">VIDEOS</a></li>
+                   <li><a href="">FOTOS</a></li>
+                   <li><a href="">CONTATO</a></li>
+               </ul>
+            </nav>
+        </header> <!-- fim do header -->
+        <div id="principal"> <!-- inicio do conteudo principal esquerdo-->
+            <section id="capa">
+                <img src="../imagens/museu.png" alt="">
+            </section>
+            <section id="postagem">
+                <article id="video">
+                    <h3>Vídeo: Conheça o museu</h3>
+                    <iframe width="310" height="170" src="https://www.youtube.com/embed/D38bdfjicPk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </article>
+                <article id="mapa">
+                    <h3>Mapa: Encontre o museu</h3>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15801.42794198202!2d-34.9628855!3d-8.065022!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xcba66c54ffed227a!2sInstituto%20Ricardo%20Brennand!5e0!3m2!1spt-BR!2sbr!4v1645448174647!5m2!1spt-BR!2sbr" width="310" height="170" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </article>
+                <article id="exposicoes">
+                    <h3>Exposições</h3>
+                    <ul>
+                        <li>
+                            <a href="">Frans Post e o Brasil holandês</a>
+                        </li>
+                        <li>
+                            <a href="">Oitocentos brasileiros</a>
+                        </li>
+                        <li>
+                            <a href="">Coleção Janete Costa e Acá Cio Gil Borsoi</a>
+                        </li>
+                        <li>
+                            <a href="">Julgamento de Fouquet</a>
+                        </li>
+                        <li>
+                            <a href=""><strong>Veja todos (10)</strong></a>
+                        </li>
+                    </ul>
+                </article>
+                <article id="sobre">
+                    <h3>Sobre o Instituto</h3>
+                    <p>O Instituto Ricardo Brennand, também conhecido como Castelo de Brennand, é uma instituição cultural brasileira sem fins lucrativos localizada na cidade do Recife, capital do estado de Pernambuco...</p>
+                    <a href="">Leia mais</a>
+                </article>
+            </section>
+        </div> <!-- Final do conteudo principal esquerdo-->
+        <aside> <!-- inicio do conteudo principal direito-->
+            <section > 
+                <img src="../imagens/depoimento.png" alt="">
+            </section>
+            <section id="conteudolateral"> <!-- Inicio da seção visita-->
+                <article class="facaumavisita"> 
+                    <form action="">
+                        <h3>Faça uma visita</h3>
+                        <label>Data: <input class="data"type="date"></label><label>Qnt Pessoas: <input class="pessoas" id type="number" name="" id=""></label> 
+                        <label for=""><input class="disponivel" type="button" value="Verificar disponibilidade"></label>
+                    </form>
+                </article>
+            </section> <!-- Final da seção visita-->
+            <section id="galeria"> <!--Inicio da galeria de fotos-->
+                <h3>Galeria de fotos</h3>
+                <a href="">
+                    <img src="../imagens/imagem1.jpg" alt="" height="93px" width="93px">
+                </a>
+                <a href="">
+                    <img src="../imagens/imagem2.jpg" alt="" height="93px" width="93px">
+                </a>
+                <a href="">
+                    <img src="../imagens/imagem3.jpg" alt="" height="93px" width="93px">
+                </a>
+                <a href="">
+                    <img src="../imagens/imagem4.jpg" alt="" height="93px" width="93px">
+                </a>
+            </section><!--Final da galeria de fotos-->
+        </aside> <!-- Final do conteudo principal direito-->
+        <footer style="clear: both;">
+            <p>
+                <a href="">HOME</a>
+                <a href="">EXPOSIÇÕES</a>
+                <a href="">PESQUISAS</a>
+                <a href="">ACERVO</a>
+                <a href="">VIDEOS</a>
+                <a href="">FOTOS</a>
+                <a href="">CONTATO</a>
+            </p>
+            <p>
+                2022 <a href="">MUSEU NACIONAL</a> - Todos os direitos reservados.
+            </p>
+        </footer>
+    </div> <!-- fim da div container -->
+</body>
+</html>

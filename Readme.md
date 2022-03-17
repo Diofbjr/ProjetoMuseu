@@ -1,0 +1,1 @@
+Olá esse projeto foi realizado com o intuito de aprendizado utilizando apenas a linguagem HTML e CSS.
